@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.quomodosoft.shopo.app-merged_res-108:/mipmap-mdpi_launcher_icon.png.flat",
+        "source": "com.quomodosoft.shopo.app-main-103:/mipmap-mdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.quomodosoft.shopo.app-merged_res-108:/mipmap-xhdpi_launcher_icon.png.flat",
+        "source": "com.quomodosoft.shopo.app-main-103:/mipmap-xhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.quomodosoft.shopo.app-merged_res-108:/mipmap-hdpi_launcher_icon.png.flat",
+        "source": "com.quomodosoft.shopo.app-main-103:/mipmap-hdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.quomodosoft.shopo.app-merged_res-108:/mipmap-xxxhdpi_launcher_icon.png.flat",
+        "source": "com.quomodosoft.shopo.app-main-103:/mipmap-xxxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.quomodosoft.shopo.app-merged_res-108:/mipmap-xxhdpi_launcher_icon.png.flat",
+        "source": "com.quomodosoft.shopo.app-main-103:/mipmap-xxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.quomodosoft.shopo.app-merged_res-108:/xml_network_security_config.xml.flat",
+        "source": "com.quomodosoft.shopo.app-main-103:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.quomodosoft.shopo.app-merged_res-108:/drawable-v21_launch_background.xml.flat",
+        "source": "com.quomodosoft.shopo.app-main-103:/drawable-v21/launch_background.xml"
+    }
+]

@@ -1,0 +1,2 @@
+/Users/rajeshkumar/Downloads/user/shopo-user-code-v5.0.1/android/app/.cxx/Debug/34w2s5rh/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/rajeshkumar/Downloads/user/shopo-user-code-v5.0.1/android/app/.cxx/Debug/34w2s5rh/armeabi-v7a/CMakeFiles/rebuild_cache.dir
