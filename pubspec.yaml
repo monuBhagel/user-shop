@@ -9,10 +9,14 @@ environment:
   sdk: ">=3.4.1 <4.0.0"
 
 dependencies:
+
   flutter:
     sdk: flutter
 
+
+
   badges: ^3.1.2
+
   stream_transform: ^2.1.0
   cached_network_image: ^3.4.1
   chat_bubbles: ^1.6.0
@@ -23,6 +27,7 @@ dependencies:
   equatable: ^2.0.5
   flutter_bloc: ^8.1.6
   flutter_html: ^3.0.0-alpha.3
+
 
   flutter_rating_bar: ^4.0.1
   flutter_svg: ^2.0.10+1

@@ -49,8 +49,8 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="true"
-        android:icon="@mipmap/launcher_icon"
-        android:label="ShopO"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Namaste Swadeshi"
         android:networkSecurityConfig="@xml/network_security_config"
         android:supportsRtl="true" >
         <meta-data

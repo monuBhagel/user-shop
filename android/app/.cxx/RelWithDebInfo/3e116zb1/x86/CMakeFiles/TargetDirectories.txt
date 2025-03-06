@@ -1,0 +1,2 @@
+/Users/rajeshkumar/Downloads/shopo-user-code-v5.0.1/android/app/.cxx/RelWithDebInfo/3e116zb1/x86/CMakeFiles/edit_cache.dir
+/Users/rajeshkumar/Downloads/shopo-user-code-v5.0.1/android/app/.cxx/RelWithDebInfo/3e116zb1/x86/CMakeFiles/rebuild_cache.dir

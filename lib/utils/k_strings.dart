@@ -1,5 +1,6 @@
 class KStrings {
-  static const String appName = "ShopO";
+  // static const String appName = "ShopO";
+  static const String appName = "Namaste Swadeshi";
   static const String appVersion = "5.1.0";
   static const String splashTitle = "Number one Ecommerce shop";
 

@@ -18,8 +18,8 @@ class AnimationSplashWidget extends StatelessWidget {
       fit: StackFit.expand,
       children: <Widget>[
         Positioned(
-          left: 0,
-          top: 30,
+          left: 30,
+          top: 70,
           child: CustomImage(
             path: Kimages.splashRoundLogo,
             width: animation.value * 320,
@@ -33,11 +33,11 @@ class AnimationSplashWidget extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              CustomImage(
-                path: Kimages.logoIcon,
-                width: animation.value * 168,
-                height: animation.value * 40,
-              ),
+              // CustomImage(
+              //   path: Kimages.logoIcon,
+              //   width: animation.value * 168,
+              //   height: animation.value * 40,
+              // ),
               const SizedBox(height: 10),
               Text(
                 KStrings.splashTitle,

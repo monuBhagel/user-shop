@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/rajeshkumar/Developer/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/rajeshkumar/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/rajeshkumar/Downloads/shopo-user-code-v5.0.1/android/app/.cxx/RelWithDebInfo/3e116zb1/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/rajeshkumar/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/rajeshkumar/Downloads/shopo-user-code-v5.0.1/android/app/.cxx/RelWithDebInfo/3e116zb1/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

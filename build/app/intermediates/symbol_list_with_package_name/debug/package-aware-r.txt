@@ -3480,6 +3480,7 @@ drawable ic_call_decline_low
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
+drawable ic_launcher_background
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -4760,6 +4761,9 @@ layout support_simple_spinner_dropdown_item
 layout wallet_test_layout
 menu stripe_add_payment_method
 menu stripe_payment_auth_web_view_menu
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
 mipmap launcher_icon
 plurals mtrl_badge_content_description
 plurals stripe_account_picker_cta_link

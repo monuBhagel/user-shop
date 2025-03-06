@@ -8,6 +8,7 @@ class Kimages {
   static const String orderActive = "assets/icons/order-active.svg";
   static const String emptyInbox = "assets/icons/empty_inbox.svg";
   static const String profileActive = "assets/icons/profile-active.svg";
+  // static const String logoIcon = "assets/icons/logo_icon.svg";
   static const String logoIcon = "assets/icons/logo_icon.svg";
   static const String filterProductIcon = "assets/icons/filter_icon.svg";
   static const String bikeIcon = "assets/icons/bike_icon.svg";
@@ -78,7 +79,8 @@ class Kimages {
 
   ////images
   static const String logoColor = "assets/images/logo_color.png";
-  static const String splashRoundLogo = "assets/images/splash-round-logo.png";
+  static const String splashRoundLogo = "assets/images/nameste1.jpeg";
+  // static const String splashRoundLogo = "assets/images/splash-round-logo.png";
 
   static const String timeCurve = "assets/images/time_curve.svg";
   static const String onboarding_1 = "assets/images/onboarding_1.svg";

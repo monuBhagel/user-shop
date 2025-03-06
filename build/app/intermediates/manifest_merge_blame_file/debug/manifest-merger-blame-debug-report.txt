@@ -88,8 +88,8 @@
 49-->[androidx.core:core:1.13.1] /Users/rajeshkumar/.gradle/caches/transforms-3/bba8cae3d14366fda6862dc9ad474573/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 50        android:debuggable="true"
 51        android:extractNativeLibs="true"
-52        android:icon="@mipmap/launcher_icon"
-53        android:label="ShopO"
+52        android:icon="@mipmap/ic_launcher"
+53        android:label="Namaste Swadeshi"
 54        android:networkSecurityConfig="@xml/network_security_config"
 55        android:supportsRtl="true" >
 55-->[com.facebook.android:facebook-android-sdk:18.0.2] /Users/rajeshkumar/.gradle/caches/transforms-3/04a04767cafffb0b595f465fe08330ad/transformed/jetified-facebook-android-sdk-18.0.2/AndroidManifest.xml:14:18-44

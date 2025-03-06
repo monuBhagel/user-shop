@@ -269,6 +269,7 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/rajeshkumar/.gradle/caches/transforms-3/88bcf722b4702d4520e2e7d4cb65160d/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/rajeshkumar/.gradle/caches/transforms-3/9c2eac39cfb6f2edffb5e6dcc3eb0eab/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/rajeshkumar/.gradle/caches/transforms-3/5b9bca75c51bcfb591e6cbf9e9baa4f0/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/rajeshkumar/.gradle/caches/transforms-3/0d2126af3d2680ef3dd6ac98f47b8664/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/rajeshkumar/.gradle/caches/transforms-3/98b221be1984bc09ab1349572702316e/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/rajeshkumar/.gradle/caches/transforms-3/1764660ac1f2f014a46ba35d1b024ff8/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rajeshkumar/.gradle/caches/transforms-3/85feb0d9d74d118d37526eda4d106517/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
@@ -648,6 +649,8 @@ MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/rajeshkumar/.gra
 MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/rajeshkumar/.gradle/caches/transforms-3/9c2eac39cfb6f2edffb5e6dcc3eb0eab/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/rajeshkumar/.gradle/caches/transforms-3/5b9bca75c51bcfb591e6cbf9e9baa4f0/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/rajeshkumar/.gradle/caches/transforms-3/5b9bca75c51bcfb591e6cbf9e9baa4f0/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/rajeshkumar/.gradle/caches/transforms-3/0d2126af3d2680ef3dd6ac98f47b8664/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/rajeshkumar/.gradle/caches/transforms-3/0d2126af3d2680ef3dd6ac98f47b8664/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/rajeshkumar/.gradle/caches/transforms-3/98b221be1984bc09ab1349572702316e/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/rajeshkumar/.gradle/caches/transforms-3/98b221be1984bc09ab1349572702316e/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:5:5-44
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/rajeshkumar/.gradle/caches/transforms-3/1764660ac1f2f014a46ba35d1b024ff8/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
