@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.flutter.stripe.stripe_android-merged_res-91:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/rajeshkumar/.gradle/caches/transforms-3/80fe354c15b3df13d8c932eece1fd1b8/transformed/appcompat-1.6.1/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.flutter.stripe.stripe_android-mergeReleaseResources-89:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/rajeshkumar/.gradle/caches/transforms-3/80fe354c15b3df13d8c932eece1fd1b8/transformed/appcompat-1.6.1/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

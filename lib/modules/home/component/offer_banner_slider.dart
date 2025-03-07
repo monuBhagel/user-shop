@@ -23,117 +23,175 @@ class _OfferBannerSliderState extends State<OfferBannerSlider> {
   int _currentIndex = 0;
 
   @override
+  // Widget build(BuildContext context) {
+  //   final homeCubit = context.read<HomeControllerCubit>();
+  //   if (homeCubit.sliderBanner.isNotEmpty) {
+  //     return Container(
+  //       color: whiteColor,
+  //       child: Container(
+  //         margin: const EdgeInsets.only(top: 15, bottom: 20),
+  //         height: height,
+  //         child: Stack(
+  //           children: [
+  //             CarouselSlider(
+  //               options: CarouselOptions(
+  //                 height: height,
+  //                 viewportFraction: 1,
+  //                 initialPage: initialPage,
+  //                 enableInfiniteScroll: true,
+  //                 reverse: false,
+  //                 autoPlay: true,
+  //                 autoPlayInterval: const Duration(seconds: 3),
+  //                 autoPlayAnimationDuration: const Duration(milliseconds: 1500),
+  //                 autoPlayCurve: Curves.fastOutSlowIn,
+  //                 enlargeCenterPage: true,
+  //                 onPageChanged: callbackFunction,
+  //                 scrollDirection: Axis.horizontal,
+  //               ),
+  //               items: homeCubit.sliderBanner
+  //                   .map((e) => SingleOfferBanner(slider: e))
+  //                   .toList(),
+  //             ),
+  //             Positioned(
+  //               left: 0,
+  //               right: 0,
+  //               bottom: 4,
+  //               child: DotsIndicator(
+  //                 dotsCount: widget.sliders.length,
+  //                 key: UniqueKey(),
+  //                 decorator: DotsDecorator(
+  //                   activeColor: blackColor,
+  //                   // activeColor: Utils.dynamicPrimaryColor(context),
+  //                   color: Colors.white,
+  //                   activeSize: const Size(14.0, 4.0),
+  //                   size: const Size(14.0, 4.0),
+  //                   activeShape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50.0)),
+  //                   shape: RoundedRectangleBorder(
+  //                       borderRadius: BorderRadius.circular(5.0)),
+  //                 ),
+  //                 position: _currentIndex,
+  //               ),
+  //             )
+  //           ],
+  //         ),
+  //       ),
+  //     );
+  //   } else {
+  //     return const SizedBox();
+  //   }
+  //   // if (widget.sliders.isNotEmpty) {
+  //   //   return Container(
+  //   //     color: const Color(0xffF6F6F6),
+  //   //     child: Container(
+  //   //       margin: const EdgeInsets.only(top: 15, bottom: 20),
+  //   //       height: height,
+  //   //       child: Stack(
+  //   //         children: [
+  //   //           CarouselSlider(
+  //   //             options: CarouselOptions(
+  //   //               height: height,
+  //   //               viewportFraction: 1,
+  //   //               initialPage: initialPage,
+  //   //               enableInfiniteScroll: true,
+  //   //               reverse: false,
+  //   //               autoPlay: true,
+  //   //               autoPlayInterval: const Duration(seconds: 3),
+  //   //               autoPlayAnimationDuration: const Duration(milliseconds: 1500),
+  //   //               autoPlayCurve: Curves.fastOutSlowIn,
+  //   //               enlargeCenterPage: true,
+  //   //               onPageChanged: callbackFunction,
+  //   //               scrollDirection: Axis.horizontal,
+  //   //             ),
+  //   //             items: widget.sliders
+  //   //                 .map((i) => SingleOfferBanner(slider: i))
+  //   //                 .toList(),
+  //   //           ),
+  //   //           Positioned(
+  //   //             left: 0,
+  //   //             right: 0,
+  //   //             bottom: 4,
+  //   //             child: DotsIndicator(
+  //   //               dotsCount: widget.sliders.length,
+  //   //               key: UniqueKey(),
+  //   //               decorator: DotsDecorator(
+  //   //                 activeColor: Utils.dynamicPrimaryColor(context),
+  //   //                 color: Colors.white,
+  //   //                 activeSize: const Size(14.0, 4.0),
+  //   //                 size: const Size(14.0, 4.0),
+  //   //                 activeShape: RoundedRectangleBorder(
+  //   //                     borderRadius: BorderRadius.circular(5.0)),
+  //   //                 shape: RoundedRectangleBorder(
+  //   //                     borderRadius: BorderRadius.circular(5.0)),
+  //   //               ),
+  //   //               position: _currentIndex,
+  //   //             ),
+  //   //           )
+  //   //         ],
+  //   //       ),
+  //   //     ),
+  //   //   );
+  //   // } else {
+  //   //   return const SizedBox();
+  //   // }
+  // }
+
+
+  @override
   Widget build(BuildContext context) {
     final homeCubit = context.read<HomeControllerCubit>();
-    if (homeCubit.sliderBanner.isNotEmpty) {
-      return Container(
-        color: whiteColor,
-        child: Container(
-          margin: const EdgeInsets.only(top: 15, bottom: 20),
-          height: height,
-          child: Stack(
-            children: [
-              CarouselSlider(
-                options: CarouselOptions(
-                  height: height,
-                  viewportFraction: 1,
-                  initialPage: initialPage,
-                  enableInfiniteScroll: true,
-                  reverse: false,
-                  autoPlay: true,
-                  autoPlayInterval: const Duration(seconds: 3),
-                  autoPlayAnimationDuration: const Duration(milliseconds: 1500),
-                  autoPlayCurve: Curves.fastOutSlowIn,
-                  enlargeCenterPage: true,
-                  onPageChanged: callbackFunction,
-                  scrollDirection: Axis.horizontal,
-                ),
-                items: homeCubit.sliderBanner
-                    .map((e) => SingleOfferBanner(slider: e))
-                    .toList(),
-              ),
-              Positioned(
-                left: 0,
-                right: 0,
-                bottom: 4,
-                child: DotsIndicator(
-                  dotsCount: widget.sliders.length,
-                  key: UniqueKey(),
-                  decorator: DotsDecorator(
-                    activeColor: blackColor,
-                    // activeColor: Utils.dynamicPrimaryColor(context),
-                    color: Colors.white,
-                    activeSize: const Size(14.0, 4.0),
-                    size: const Size(14.0, 4.0),
-                    activeShape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50.0)),
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(5.0)),
-                  ),
-                  position: _currentIndex,
-                ),
-              )
-            ],
-          ),
-        ),
-      );
-    } else {
-      return const SizedBox();
+
+    if (homeCubit.sliderBanner.isEmpty || widget.sliders.isEmpty) {
+      return const SizedBox(); // Prevents rendering if there are no sliders
     }
-    // if (widget.sliders.isNotEmpty) {
-    //   return Container(
-    //     color: const Color(0xffF6F6F6),
-    //     child: Container(
-    //       margin: const EdgeInsets.only(top: 15, bottom: 20),
-    //       height: height,
-    //       child: Stack(
-    //         children: [
-    //           CarouselSlider(
-    //             options: CarouselOptions(
-    //               height: height,
-    //               viewportFraction: 1,
-    //               initialPage: initialPage,
-    //               enableInfiniteScroll: true,
-    //               reverse: false,
-    //               autoPlay: true,
-    //               autoPlayInterval: const Duration(seconds: 3),
-    //               autoPlayAnimationDuration: const Duration(milliseconds: 1500),
-    //               autoPlayCurve: Curves.fastOutSlowIn,
-    //               enlargeCenterPage: true,
-    //               onPageChanged: callbackFunction,
-    //               scrollDirection: Axis.horizontal,
-    //             ),
-    //             items: widget.sliders
-    //                 .map((i) => SingleOfferBanner(slider: i))
-    //                 .toList(),
-    //           ),
-    //           Positioned(
-    //             left: 0,
-    //             right: 0,
-    //             bottom: 4,
-    //             child: DotsIndicator(
-    //               dotsCount: widget.sliders.length,
-    //               key: UniqueKey(),
-    //               decorator: DotsDecorator(
-    //                 activeColor: Utils.dynamicPrimaryColor(context),
-    //                 color: Colors.white,
-    //                 activeSize: const Size(14.0, 4.0),
-    //                 size: const Size(14.0, 4.0),
-    //                 activeShape: RoundedRectangleBorder(
-    //                     borderRadius: BorderRadius.circular(5.0)),
-    //                 shape: RoundedRectangleBorder(
-    //                     borderRadius: BorderRadius.circular(5.0)),
-    //               ),
-    //               position: _currentIndex,
-    //             ),
-    //           )
-    //         ],
-    //       ),
-    //     ),
-    //   );
-    // } else {
-    //   return const SizedBox();
-    // }
+
+    return Container(
+      color: whiteColor,
+      margin: const EdgeInsets.only(top: 15, bottom: 20),
+      height: height,
+      child: Stack(
+        children: [
+          CarouselSlider(
+            options: CarouselOptions(
+              height: height,
+              viewportFraction: 1,
+              initialPage: initialPage,
+              autoPlay: true,
+              autoPlayInterval: const Duration(seconds: 3),
+              autoPlayAnimationDuration: const Duration(milliseconds: 1500),
+              autoPlayCurve: Curves.fastOutSlowIn,
+              enlargeCenterPage: true,
+              onPageChanged: callbackFunction,
+              scrollDirection: Axis.horizontal,
+            ),
+              items: homeCubit.sliderBanner
+                              .map((e) => SingleOfferBanner(slider: e))
+                              .toList(),
+            //             ),
+          ),
+          Positioned(
+            left: 0,
+            right: 0,
+            bottom: 4,
+            child: DotsIndicator(
+              dotsCount: widget.sliders.length,
+              key: UniqueKey(),
+              position: _currentIndex,
+              decorator: DotsDecorator(
+                activeColor: blackColor,
+                color: Colors.white,
+                activeSize: const Size(14.0, 4.0),
+                size: const Size(14.0, 4.0),
+                activeShape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50.0)),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
+              ),
+            ),
+          )
+        ],
+      ),
+    );
   }
+
+
 
   void callbackFunction(int index, CarouselPageChangedReason reason) {
     setState(() {

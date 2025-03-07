@@ -9,7 +9,7 @@
     },
     {
       "name": "archive",
-      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/archive-4.0.3",
+      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/archive-4.0.4",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -369,9 +369,9 @@
     },
     {
       "name": "flutter_plugin_android_lifecycle",
-      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.24",
+      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.27",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.6"
     },
     {
       "name": "flutter_rating_bar",
@@ -555,9 +555,9 @@
     },
     {
       "name": "google_maps_flutter_android",
-      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/google_maps_flutter_android-2.14.13",
+      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/google_maps_flutter_android-2.14.14",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.6"
     },
     {
       "name": "google_maps_flutter_ios",
@@ -591,27 +591,27 @@
     },
     {
       "name": "google_sign_in_android",
-      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/google_sign_in_android-6.1.35",
+      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/google_sign_in_android-6.2.0",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.6"
     },
     {
       "name": "google_sign_in_ios",
-      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/google_sign_in_ios-5.8.0",
+      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/google_sign_in_ios-5.8.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "google_sign_in_platform_interface",
-      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/google_sign_in_platform_interface-2.4.5",
+      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/google_sign_in_platform_interface-2.5.0",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.4"
     },
     {
       "name": "google_sign_in_web",
-      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/google_sign_in_web-0.12.4+3",
+      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/google_sign_in_web-0.12.4+4",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
+      "languageVersion": "3.4"
     },
     {
       "name": "grouped_list",
@@ -651,9 +651,9 @@
     },
     {
       "name": "image_picker_android",
-      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/image_picker_android-0.8.12+21",
+      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/image_picker_android-0.8.12+22",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.6"
     },
     {
       "name": "image_picker_for_web",
@@ -897,9 +897,9 @@
     },
     {
       "name": "path_provider_android",
-      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/path_provider_android-2.2.15",
+      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/path_provider_android-2.2.16",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.6"
     },
     {
       "name": "path_provider_foundation",
@@ -987,9 +987,9 @@
     },
     {
       "name": "shared_preferences_android",
-      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/shared_preferences_android-2.4.6",
+      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/shared_preferences_android-2.4.8",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.6"
     },
     {
       "name": "shared_preferences_foundation",
@@ -1191,9 +1191,9 @@
     },
     {
       "name": "url_launcher_android",
-      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.14",
+      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.15",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.6"
     },
     {
       "name": "url_launcher_ios",
@@ -1269,7 +1269,7 @@
     },
     {
       "name": "video_player_android",
-      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/video_player_android-2.7.17",
+      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/video_player_android-2.8.1",
       "packageUri": "lib/",
       "languageVersion": "3.6"
     },
@@ -1323,9 +1323,9 @@
     },
     {
       "name": "webview_flutter_android",
-      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/webview_flutter_android-4.3.2",
+      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/webview_flutter_android-4.3.3",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.6"
     },
     {
       "name": "webview_flutter_platform_interface",
@@ -1335,7 +1335,7 @@
     },
     {
       "name": "webview_flutter_wkwebview",
-      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.18.2",
+      "rootUri": "file:///Users/rajeshkumar/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.18.4",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
@@ -1370,7 +1370,7 @@
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2025-03-06T13:22:49.639364Z",
+  "generated": "2025-03-07T12:04:31.458611Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///Users/rajeshkumar/Developer/flutter",

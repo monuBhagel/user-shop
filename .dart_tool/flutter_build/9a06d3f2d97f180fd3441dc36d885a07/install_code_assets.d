@@ -1,0 +1,1 @@
+ /Users/rajeshkumar/Downloads/shopo-user-code-v5.0.1/.dart_tool/flutter_build/9a06d3f2d97f180fd3441dc36d885a07/native_assets.json: 

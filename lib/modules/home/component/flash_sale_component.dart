@@ -25,7 +25,7 @@ class FlashSaleComponent extends StatelessWidget {
     if (endTime > 0) {
       return SliverToBoxAdapter(
         child: Container(
-          height: 275,
+          height: 290,
           padding: Utils.symmetric(h: 10.0),
           margin: Utils.only(bottom: 20.0, top: 15),
           decoration: BoxDecoration(

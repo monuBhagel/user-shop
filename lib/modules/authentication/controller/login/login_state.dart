@@ -9,8 +9,10 @@ class LoginModelState extends Equatable {
   final LoginState state;
 
   const LoginModelState({
-    this.text = 'user@gmail.com',
-    this.password = '1234',
+    // this.text = 'user@gmail.com',
+    this.text = 'user@namasteswadeshi.com',
+    this.password = 'User@123',
+    // this.password = '1234',
     this.langCode = 'en',
     // this.text = '',
     // this.password = '',

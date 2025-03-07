@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.flutter.stripe.stripe_android-merged_res-91:/color-night-v8/material_timepicker_modebutton_tint.xml",
+        "source": "com.flutter.stripe.stripe_android-material-1.11.0-66:/color-night-v8/material_timepicker_modebutton_tint.xml"
+    },
+    {
+        "merged": "com.flutter.stripe.stripe_android-merged_res-91:/color-night-v8/material_timepicker_button_stroke.xml",
+        "source": "com.flutter.stripe.stripe_android-material-1.11.0-66:/color-night-v8/material_timepicker_button_stroke.xml"
+    },
+    {
+        "merged": "com.flutter.stripe.stripe_android-merged_res-91:/color-night-v8/material_timepicker_clockface.xml",
+        "source": "com.flutter.stripe.stripe_android-material-1.11.0-66:/color-night-v8/material_timepicker_clockface.xml"
+    }
+]

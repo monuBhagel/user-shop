@@ -1,9 +1,12 @@
 class RemoteUrls {
-  static const String rootUrl = "https://shopo.mamunuiux.com/";
+  // static const String rootUrl = "https://shopo.mamunuiux.com/";
+  static const String rootUrl = "https://admin.namasteswadeshi.com/";
 
   static const String baseUrl = '${rootUrl}api/';
   static const String homeUrl = baseUrl;
   static const String userRegister = '${baseUrl}store-register';
+  // static const String userLogin = '${baseUrl}auth/login';
+  // static const String userLogin = '${baseUrl}login';
   static const String userLogin = '${baseUrl}store-login';
 
   static String socialSignUrl(String userInfo) =>

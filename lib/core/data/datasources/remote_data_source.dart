@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
@@ -201,6 +203,89 @@ class RemoteDataSourceImpl implements RemoteDataSource {
     'Content-Type': 'application/json',
     'X-Requested-With': 'XMLHttpRequest',
   };
+
+  // final loginHeader = {
+  //   'Content-Type': 'application/json',
+  //   'Cookie':
+  //   'XSRF-TOKEN=YOUR_XSRF_TOKEN; namasteswadeshi_session=YOUR_SESSION_TOKEN',
+  // };
+
+
+
+  // @override
+  // Future<UserLoginResponseModel> signIn(Map body) async {
+  //   final uri = Uri.parse(RemoteUrls.userLogin);
+  //
+  //   final clientMethod = client.post(uri, headers: loginHeader, body: body);
+    // final clientMethod = client.post(uri, headers: postHeader, body: body);
+    // final clientMethod = client.post(uri, headers: defaultHeader, body: body);
+    // final responseJsonBody =
+    // await NetworkParser.callClientWithCatchException(() => clientMethod);
+    // return UserLoginResponseModel.fromMap(responseJsonBody);
+  // }
+
+
+  // @override
+  // Future<UserLoginResponseModel> signIn(Map<String, dynamic> body) async {
+  //   final uri = Uri.parse(RemoteUrls.userLogin);
+  //
+  //   final loginheaders = {
+  //     'Accept': 'application/json',
+  //     'Content-Type': 'application/json', // Ensure JSON content type
+  //   };
+  //
+  //   try {
+  //     final response = await client.post(
+  //       uri,
+  //       headers: loginheaders,
+  //       body: jsonEncode(body), // Encode body as JSON
+  //     );
+  //
+  //     print("Response Code: ${response.statusCode}");
+  //     print("Response Body: ${response.body}");
+  //
+  //     if (response.statusCode == 200) {
+  //       return UserLoginResponseModel.fromMap(json.decode(response.body));
+  //     } else {
+  //       throw Exception("Login failed: ${response.body}");
+  //     }
+  //   } catch (e) {
+  //     print("Error: $e");
+  //     throw Exception("An error occurred during login.");
+  //   }
+  // }
+
+
+
+
+  @override
+  Future<UserLoginResponseModel> signIn(Map<String, dynamic> body) async {
+    final uri = Uri.parse(RemoteUrls.userLogin)
+        .replace(queryParameters: body.map((key, value) => MapEntry(key, value.toString())));
+
+    final headers = {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json',
+    };
+
+    try {
+      final response = await client.post(uri, headers: headers); // Change to GET
+
+      print("Response Code: ${response.statusCode}");
+      print("Response Body: ${response.body}");
+
+      if (response.statusCode == 200) {
+        return UserLoginResponseModel.fromMap(json.decode(response.body));
+      } else {
+        throw Exception("Login failed: ${response.body}");
+      }
+    } catch (e) {
+      print("Error: $e");
+      throw Exception("An error occurred during login.");
+    }
+  }
+
+
 
   @override
   Future<Map<String, dynamic>> createPaymentIntent(
@@ -566,15 +651,15 @@ class RemoteDataSourceImpl implements RemoteDataSource {
     return WebsiteSetupModel.fromMap(responseJsonBody);
   }
 
-  @override
-  Future<UserLoginResponseModel> signIn(Map body) async {
-    final uri = Uri.parse(RemoteUrls.userLogin);
-
-    final clientMethod = client.post(uri, headers: postHeader, body: body);
-    final responseJsonBody =
-        await NetworkParser.callClientWithCatchException(() => clientMethod);
-    return UserLoginResponseModel.fromMap(responseJsonBody);
-  }
+  // @override
+  // Future<UserLoginResponseModel> signIn(Map body) async {
+  //   final uri = Uri.parse(RemoteUrls.userLogin);
+  //
+  //   final clientMethod = client.post(uri, headers: loginHeader, body: body);
+  //   final responseJsonBody =
+  //       await NetworkParser.callClientWithCatchException(() => clientMethod);
+  //   return UserLoginResponseModel.fromMap(responseJsonBody);
+  // }
 
   @override
   Future<dynamic> updateUserForPushNotification(Uri uri) async {
